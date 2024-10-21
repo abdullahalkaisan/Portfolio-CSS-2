@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1100px){
+  .menuContainer{
+      display: none;
+  }
+  .burgurMenu{
+    display: flex;
+  }
+
+  header{
+    height: max-content;
+    padding: 0 40px;
+    padding-top: 20px;
+  }
+  .namePictureContainer{
+    flex-direction: column;
+  }
+
+  .namePictureContainer .imgWrapper{
+    height: 150px;
+    width: 150px;
+    margin: 20px 0;
+
+}
+
+.nameTextWrapper{
+    order: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.namePictureContainer .nameTextWrapper p{
+    margin: 20px 0;
+
+ 
+}
+
+
+.greenGlowBtn{
+    padding: 10px 32px;
+    margin: 0 auto;
+}
+
+
+.workedWithWrapper{
+    margin: 30px 0;
+}
+
+.workedWithWrapper p{
+    margin-bottom:10px;
+    margin-top: 30px;
+}
+
+
+
+.workedWithWrapper .imgWrapper{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+.workedWithWrapper .imgWrapper .imgBox{
+    height: 40px;
+    padding: 0 5px;
+    margin:  5px 0;
+}
+
+
+.portfolioSection{
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleTextBox{
+    width: 100%;
+    margin: 20px 0;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.titleTextBox p{
+    width: 100%;
+}
+
+.portfolioContainer{
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.portfolioInfo{
+    height: max-content;
+    width: 100%;
+    padding: 0px;
+    order: 2;
+}
+
+.portfolioInfo button{
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portfolioInfo p{
+    margin-bottom: 10px;
+}
+
+
+.portfolioImage{
+    height: 200px;
+    width: 100%;
+    order: 1;
+}
+
+
+.testimonialCardWrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.recentWorkWrapper{
+    padding: 0 40px;
+    flex-direction: column;
+}
+
+
+.recentWorkWrapper svg{
+    display: none;
+}
+
+
+.recentWorkCard{
+    margin: 30px 0;
+}
+
+.recentWorkCard h4{
+    margin: 20px 0;
+}
+
+.recentWorkCard .imgWrappper{
+    height: 200px;
+    width: 100%;
+}
+
+
+.greenGlowBtn.small{
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.greenGlowBtn.submit{
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+}
+
+
