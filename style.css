@@ -6,6 +6,13 @@
 
 }
 
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -27,6 +34,23 @@
   }
 
 
+  .burgurMenu{
+      background-color: red;
+    background-color: #1B1B1B;
+    color: white;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 11;
+    right: 10px;
+    top: 10px;
+    border-radius: 999px;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
 
   .menuContainer{
@@ -70,7 +94,6 @@
 
 
 header{
-
     height: 100vh;
     width: 100%;
     padding: 0 200px;
@@ -79,6 +102,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-top: 100px;
     /* align-content: space-evenly ; */
 }
 
@@ -194,6 +218,7 @@ h1, h2, h3, h4, h5, h6{
     /* background-color: orange; */
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -224,7 +249,6 @@ h1, h2, h3, h4, h5, h6{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .titleTextBox{
@@ -235,8 +259,6 @@ h1, h2, h3, h4, h5, h6{
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
-
-    
 }
 
 .titleTextBox h2{
@@ -274,7 +296,6 @@ h1, h2, h3, h4, h5, h6{
 .portfolioImage{
     height: 300px;
     width: 445px;
-
     /* width: 50%; */
     overflow: hidden;
     border-radius: 6px;
@@ -404,6 +425,7 @@ background-color: #D0E6FF;
     border-radius: 6px;
     overflow: hidden;
 }
+
 
 .recentWorkCard .imgWrappper img{
     height: 100%;
